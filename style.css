@@ -1,0 +1,154 @@
+body {
+  font-family: "MetropolisNF", sans-serif;
+  font-size: 16px;
+}
+
+.section__wrapper {
+  width: 30%;
+  margin: 0px auto;
+}
+
+.section__wrapper h1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px !important;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #007f61 !important;
+}
+
+.section__wrapper h1:before,
+.section__wrapper h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.section__wrapper h1:before {
+  margin-right: 10px;
+}
+.section__wrapper h1:after {
+  margin-left: 10px;
+}
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 15px;
+}
+
+.radio__wrapper1 {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-radius: 4px;
+}
+.radio__wrapper1--inner,
+.radio__wrapper3--inner {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.radio__wrapper1 .amount,
+.radio__wrapper3 .amount,
+.radio__wrapper2--inner1 .amount {
+  font-weight: 400;
+}
+
+.radio__wrapper1 .discount,
+.radio__wrapper3 .discount {
+  font-weight: 500;
+}
+
+.radio__wrapper2 {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #007f610f;
+}
+.radio__wrapper2--outer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.radio__wrapper2--inner2 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  font-weight: 300;
+  color: #808080b5;
+}
+.radio__wrapper2--inner3 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.radio__wrapper2--inner3 .discount {
+  font-weight: 500;
+}
+
+.radio__wrapper2--inner1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex: 1;
+}
+
+.radio__wrapper2--outer2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 10px;
+}
+.radio__wrapper2--outer2--inner {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.radio__wrapper2 .dropdown {
+  width: 100px;
+  padding: 4px;
+}
+.radio__wrapper3 {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-radius: 4px;
+}
+.shipping__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addtocart__btn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  background: #007f61;
+  color: white;
+  border: 0px;
+  padding: 20px 0px;
+}
+.form-check-input:checked[type="radio"] {
+  --bs-form-check-bg-image: none !important;
+}
+
+.form-check-input:checked {
+  background-color: #007f61 !important;
+  border: 2px solid white !important;
+  outline: 2px solid #007f61 !important;
+}
